@@ -49,7 +49,7 @@ public class Scopes {
 		Function<Integer, Integer> myFunction = (Integer x) -> x + outsideArrow;
 		System.out.println(myFunction.apply(20));
 	}
-	
+
 	int getX() {
 		return this.x;
 	}
